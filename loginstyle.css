@@ -1,0 +1,74 @@
+h3{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: italic; 
+    font-weight: bold; 
+    color: red;
+    text-align: center; 
+    text-decoration: underline;
+  }
+
+  h5,h6{
+    font-family: Calibri; 
+    font-size: 15pt;         
+    font-style: italic; 
+    color: aquamarine;
+    text-align: center; 
+
+  }
+  
+  table{
+    font-family: Calibri; 
+    color:yellow; 
+    font-size: 13pt; 
+    font-style: normal;
+    font-weight: bold;
+    text-align:2px; 
+    
+    
+    
+  }
+  table.inner{
+    border: 15px
+  }
+
+  .regform{
+    background-image: url(./img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button1 {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button2 {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 657px) {
+    .Fields {
+       flex-direction: column-reverse;
+    }
+ }
